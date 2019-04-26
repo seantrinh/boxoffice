@@ -1,6 +1,6 @@
 # boxoffice
-* Kaggle TMDB Box Office Prediction Competition 2019
-* Link: https://www.kaggle.com/c/tmdb-box-office-prediction
+Kaggle TMDB Box Office Prediction Competition 2019
+Link: https://www.kaggle.com/c/tmdb-box-office-prediction
 ## Authors
 
 * **Sean Trinh**
@@ -8,7 +8,7 @@
 
 ### Team Name
 
-CS583Team
+* CS583Team
 
 ## Overview (from Kaggle)
 
@@ -28,13 +28,18 @@ It is your job to predict the international box office revenue for each movie. F
 
 Submissions are evaluated on Root-Mean-Squared-Logarithmic-Error (RMSLE) between the predicted value and the actual revenue. Logs are taken to not overweight blockbuster revenue movies.
 
-Submission File Format
+**Submission File Format**
+
 The file should contain a header and have the following format:
 
 id,revenue
+
 1461,1000000
+
 1462,50000
+
 1463,800000000
+
 etc.
 
 You can download an example submission file (sample_submission.csv) on the Data page.
