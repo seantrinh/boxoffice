@@ -6,6 +6,10 @@
 * **Sean Trinh**
 * **Hariharan Vijayachandran**
 
+### Team Name
+
+CS583Team
+
 ## Overview (from Kaggle)
 
 ### Description
@@ -44,3 +48,19 @@ The competition will conclude May 30, 2019 at 11:59 PM UTC.
 At the conclusion of the competition, the top three most popular Kernels--as determined by number of upvotes at the deadline--will receive Kaggle Swag. Only Kernels created/forked after the start of the competition will be eligible for a prize.
 
 Happy modeling and thanks for being great Kernelers of the Kaggle community!
+
+## Data (from Kaggle)
+
+### Description
+
+In this dataset, you are provided with 7398 movies and a variety of metadata obtained from The Movie Database (TMDB). Movies are labeled with id. Data points include cast, crew, plot keywords, budget, posters, release dates, languages, production companies, and countries.
+
+You are predicting the worldwide revenue for 4398 movies in the test file.
+
+Note - many movies are remade over the years, therefore it may seem like multiple instance of a movie may appear in the data, however they are different and should be considered separate movies. In addition, some movies may share a title, but be entirely unrelated.
+
+E.g. The Karate Kid (id: 5266) was released in 1986, while a clearly (or maybe just subjectively) inferior remake (id: 1987) was released in 2010. Also, while the Frozen (id: 5295) released by Disney in 2013 may be the household name, don't forget about the less-popular Frozen (id: 139) released three years earlier about skiers who are stranded on a chairlift...
+
+### Acknowledgements
+
+This dataset has been collected from TMDB. The movie details, credits and keywords have been collected from the TMDB Open API. This competition uses the TMDB API but is not endorsed or certified by TMDB. Their API also provides access to data on many additional movies, actors and actresses, crew members, and TV shows.
