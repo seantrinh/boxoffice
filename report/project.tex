@@ -186,7 +186,7 @@ escapeinside={\%*}{*)},         % if you want to add a comment within your code
 
 \title{CS583A: Course Project}
 
-\author{Name 1, Name 2, and Name 3}
+\author{Sean Trinh and Hariharan Vijayachandran}
 
 %\date{ }
 
@@ -197,14 +197,7 @@ escapeinside={\%*}{*)},         % if you want to add a comment within your code
 
 \section{Summary}
 
-[Problem descriptions:] We pariticipe an active (or inactive with late submission) competition of classifying cats and dogs based on photos. 
-[Methodology:] The final model we choose is ResNet50, a deep convolutional neural network architecture, which takes $256\times 256$ images as input and outputs the class labels.
-[Implementation:] We implement the convolutional neural network using Keras (or we directly use the ResNet50 provided by Keras) and run the code on a MacBook Pro with one Intel i7 CPU and 32 GB memory (or a workstation with 4 NVIDIA GeForce XXX GPUs.)
-[Evaluation metric:] Performance is evaluated on the classification accuracy.
-[Score and ranking:] In the public leaderboard, our score is $0.95123$; we rank 79 among the 215 teams. In the private leaderboard, our score is $0.95234$; we rank 82 among the 217 teams. (Or, the result on the public leaderboard is not available until Month Day Year.)
-
-(Note: In your report, remove the words in brackets.)
-
+We participated in an active competition on Kaggle. The competition's name is "TMDB Box Office Prediction." Our objective was to, given data about movies, like title, cast, crew, budget, etc., predict the amount of revenue that the movies would make. The final model consisted of an Ensemble model built with three separate models, all of which took data and feed them into a network, differing slightly but each consisting of a few Dense layers. The first model took in budget, popularity, and runtime. The second model took in the number of cast members and the number of crew members. The last model took in the release month and release year of each movie. We then feed these models into the Ensemble model, which itself consisted of a network of a few Dense layers, and outputted revenue predictions. The models were primarily implemented using Keras, but numpy and pandas were used to perform minor, auxiliary functions. The models were trained and run on a MacBook Pro with one 2.2 GHz Intel Core i7 processor and 16 GB of memory. Performance of the model was evaluated on mean squared logarithmic error (MSLE). Our score on the public leaderboard is $2.28782$. With this score, at the time of the writing of this report, we rank 631 out of 1179 teams. Since this is still an active competition, we currently do not have a score nor rank on the private leaderboard.
 
 \section{Problem Description}
 
