@@ -12,9 +12,9 @@ Link: https://www.kaggle.com/c/tmdb-box-office-prediction
 
 * CS583Team
 
-### Rank
+### Public Score
 
-* N/A
+* **2.28782**
 
 ## Overview (from Kaggle)
 
