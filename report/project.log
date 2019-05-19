@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  18 MAY 2019 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  19 MAY 2019 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -447,85 +447,127 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 194.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
+) [1
 
-Package natbib Warning: Citation `he2016deep' on page 1 undefined on input line
- 231.
-
-[1
-
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<acc.png, id=46, 382.42876pt x 264.99pt>
-File: acc.png Graphic file (type png)
-<use acc.png>
-Package pdftex.def Info: acc.png  used on input line 262.
-(pdftex.def)             Requested size: 225.48038pt x 156.23761pt.
-<loss.png, id=48, 382.42876pt x 264.99pt>
-File: loss.png Graphic file (type png)
-<use loss.png>
-Package pdftex.def Info: loss.png  used on input line 263.
-(pdftex.def)             Requested size: 225.48038pt x 156.23761pt.
-
-[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<model_1_msle.png, id=56, 313.17pt x 214.8025pt>
+File: model_1_msle.png Graphic file (type png)
+<use model_1_msle.png>
+Package pdftex.def Info: model_1_msle.png  used on input line 252.
+(pdftex.def)             Requested size: 225.48038pt x 154.66095pt.
+<model_1_loss.png, id=58, 319.1925pt x 215.80624pt>
+File: model_1_loss.png Graphic file (type png)
+<use model_1_loss.png>
+Package pdftex.def Info: model_1_loss.png  used on input line 253.
+(pdftex.def)             Requested size: 225.48038pt x 152.44637pt.
+<model_2_msle.png, id=59, 312.16624pt x 212.795pt>
+File: model_2_msle.png Graphic file (type png)
+<use model_2_msle.png>
+Package pdftex.def Info: model_2_msle.png  used on input line 260.
+(pdftex.def)             Requested size: 225.48038pt x 153.70581pt.
+<model_2_loss.png, id=60, 324.21124pt x 213.79875pt>
+File: model_2_loss.png Graphic file (type png)
+<use model_2_loss.png>
+Package pdftex.def Info: model_2_loss.png  used on input line 261.
+(pdftex.def)             Requested size: 225.48038pt x 148.69244pt.
+<model_3_msle.png, id=61, 312.16624pt x 211.79124pt>
+File: model_3_msle.png Graphic file (type png)
+<use model_3_msle.png>
+Package pdftex.def Info: model_3_msle.png  used on input line 268.
+(pdftex.def)             Requested size: 225.48038pt x 152.98079pt.
+<model_3_loss.png, id=62, 328.22626pt x 215.80624pt>
+File: model_3_loss.png Graphic file (type png)
+<use model_3_loss.png>
+Package pdftex.def Info: model_3_loss.png  used on input line 269.
+(pdftex.def)             Requested size: 225.48038pt x 148.25446pt.
+<heatmap.png, id=63, 555.07375pt x 553.06625pt>
+File: heatmap.png Graphic file (type png)
+<use heatmap.png>
+Package pdftex.def Info: heatmap.png  used on input line 276.
+(pdftex.def)             Requested size: 352.31624pt x 351.04126pt.
+ [3] [4pdfTeX warning (ext4): destination with the same identifier (name{figure
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.281 \section
-              {Outcome} <./acc.png> <./loss.png>]
-<private.png, id=66, 953.5625pt x 622.325pt>
-File: private.png Graphic file (type png)
-<use private.png>
-Package pdftex.def Info: private.png  used on input line 296.
-(pdftex.def)             Requested size: 225.48038pt x 147.1485pt.
-<public.png, id=67, 948.54375pt x 567.11874pt>
+l.289 W
+       e then tried to incorporate the number of spoken languages, the numbe...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.289 W
+       e then tried to incorporate the number of spoken languages, the numbe...
+ <./model_1_msle.png> <./model_1_loss.png> <./model_2_msle.png> <./model_2_loss
+.png>] [5pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.303 
+       <./model_3_msle.png> <./model_3_loss.png>] [6pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.4}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.303 
+       <./heatmap.png>]
+<public.png, id=110, 1445.4pt x 903.375pt>
 File: public.png Graphic file (type png)
 <use public.png>
-Package pdftex.def Info: public.png  used on input line 297.
-(pdftex.def)             Requested size: 225.48038pt x 134.8046pt.
+Package pdftex.def Info: public.png  used on input line 315.
+(pdftex.def)             Requested size: 352.31624pt x 220.1916pt.
 
 No file project.bbl.
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
-[3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+[7] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 \end{document}
-                     <./private.png> <./public.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+l.343 \end{document}
+                     <./public.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
  (./project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
-Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: 267F6D718E452F49B67E2065EC915301;232.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+
+
+Package rerunfilecheck Warning: File `project.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `project.out':
+(rerunfilecheck)             Before: 267F6D718E452F49B67E2065EC915301;232
+(rerunfilecheck)             After:  E49866451025AE0745776F7D19618E06;287.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
  ) 
 Here is how much of TeX's memory you used:
- 8663 strings out of 492616
- 121257 string characters out of 6129482
- 413101 words of memory out of 5000000
- 12441 multiletter control sequences out of 15000+600000
+ 8701 strings out of 492616
+ 121906 string characters out of 6129482
+ 417101 words of memory out of 5000000
+ 12460 multiletter control sequences out of 15000+600000
  11936 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,40p,1405b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,7n,40p,1405b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
 sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
-ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on project.pdf (3 pages, 611520 bytes).
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
+l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on project.pdf (8 pages, 2707715 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 132 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
